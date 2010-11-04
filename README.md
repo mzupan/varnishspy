@@ -33,6 +33,13 @@ cd varnishspy/server
 node server.js
 </code></pre>
 
+If you want the server to ignore certain extentions edit the server.js and add/remove items from 
+
+<code>var ignore = new Array()</code>
+
+Right now its set to ignore certain images/css/js and some font files.
+
+
 The server is up and running!
 
 ## Client Installation
