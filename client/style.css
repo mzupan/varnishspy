@@ -1,0 +1,49 @@
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre,  dfn, em, img,  small, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1, h1 em, table th {
+  font-family: "Akzidenz Grotesk BQ Bold";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 45px;
+}
+h1 em {
+	color: #FF0084;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table th {
+  font-size: 18px;
+  text-align: left;
+  padding-right: 15px;
+}
+
+table td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+table thead tr th:first-child {
+  width: 100px;
+}
+
+table tbody tr td:first-child {
+  width: 100px;
+}
+
+table tbody a {
+  text-decoration: none;
+}

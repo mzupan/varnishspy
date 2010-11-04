@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> 
+<html lang="en"> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title>VarnishSpy</title> 
+		<link rel="stylesheet" href="style.css" type="text/css"> 
+	</head> 
+ 
+	<body>
+		<header> 
+			<hgroup id="logo"> 
+				<h1>VarnishSpy <em>1.0</em></h1> 
+			</hgroup> 
+		</header> 
+		
+		<section class="data"> 
+
+        	<table class="request-table">
+        		<thead> 
+					<tr> 
+						<th>count</th> 
+						<th>url</th> 
+					</tr> 
+				</thead> 
+				
+				<tbody id="urllist"> 
+				</tbody> 
+			</table> 
+		</section> 
+
+	    <script type="text/javascript" src="jquery.js"></script>
+		<script src="http://cdn.socket.io/stable/socket.io.js"></script>
+		<script src="client.js" type="text/javascript"></script> 
+	</body>
+</html>
